@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AFE50C11533D66F00848AA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFE50C01533D66F00848AA5 /* Foundation.framework */; };
+		0AFE50C71533D66F00848AA5 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFE50C61533D66F00848AA5 /* SBJSON.m */; };
+		0AFE50CF1533D66F00848AA5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFE50CE1533D66F00848AA5 /* SenTestingKit.framework */; };
+		0AFE50D11533D66F00848AA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFE50D01533D66F00848AA5 /* UIKit.framework */; };
+		0AFE50D21533D66F00848AA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFE50C01533D66F00848AA5 /* Foundation.framework */; };
+		0AFE50D51533D66F00848AA5 /* libSBJSON.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFE50BD1533D66F00848AA5 /* libSBJSON.a */; };
+		0AFE50DB1533D66F00848AA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AFE50D91533D66F00848AA5 /* InfoPlist.strings */; };
+		0AFE50DE1533D66F00848AA5 /* SBJSONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFE50DD1533D66F00848AA5 /* SBJSONTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AFE50D31533D66F00848AA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AFE50B41533D66F00848AA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AFE50BC1533D66F00848AA5;
+			remoteInfo = SBJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AFE50BD1533D66F00848AA5 /* libSBJSON.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSBJSON.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AFE50C01533D66F00848AA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0AFE50C41533D66F00848AA5 /* SBJSON-Prefix.pch */ = {isa = PBXFileReference; path = "SBJSON-Prefix.pch"; sourceTree = "<group>"; };
+		0AFE50C51533D66F00848AA5 /* SBJSON.h */ = {isa = PBXFileReference; path = SBJSON.h; sourceTree = "<group>"; };
+		0AFE50C61533D66F00848AA5 /* SBJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		0AFE50CD1533D66F00848AA5 /* SBJSONTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBJSONTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AFE50CE1533D66F00848AA5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0AFE50D01533D66F00848AA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0AFE50D81533D66F00848AA5 /* SBJSONTests-Info.plist */ = {isa = PBXFileReference; path = "SBJSONTests-Info.plist"; sourceTree = "<group>"; };
+		0AFE50DA1533D66F00848AA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AFE50DC1533D66F00848AA5 /* SBJSONTests.h */ = {isa = PBXFileReference; path = SBJSONTests.h; sourceTree = "<group>"; };
+		0AFE50DD1533D66F00848AA5 /* SBJSONTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJSONTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AFE50BA1533D66F00848AA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFE50C11533D66F00848AA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFE50C91533D66F00848AA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFE50CF1533D66F00848AA5 /* SenTestingKit.framework in Frameworks */,
+				0AFE50D11533D66F00848AA5 /* UIKit.framework in Frameworks */,
+				0AFE50D21533D66F00848AA5 /* Foundation.framework in Frameworks */,
+				0AFE50D51533D66F00848AA5 /* libSBJSON.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AFE50B21533D66F00848AA5 = {
+			isa = PBXGroup;
+			children = (
+				0AFE50C21533D66F00848AA5 /* SBJSON */,
+				0AFE50D61533D66F00848AA5 /* SBJSONTests */,
+				0AFE50BF1533D66F00848AA5 /* Frameworks */,
+				0AFE50BE1533D66F00848AA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AFE50BE1533D66F00848AA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AFE50BD1533D66F00848AA5 /* libSBJSON.a */,
+				0AFE50CD1533D66F00848AA5 /* SBJSONTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AFE50BF1533D66F00848AA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AFE50C01533D66F00848AA5 /* Foundation.framework */,
+				0AFE50CE1533D66F00848AA5 /* SenTestingKit.framework */,
+				0AFE50D01533D66F00848AA5 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AFE50C21533D66F00848AA5 /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				0AFE50C51533D66F00848AA5 /* SBJSON.h */,
+				0AFE50C61533D66F00848AA5 /* SBJSON.m */,
+				0AFE50C31533D66F00848AA5 /* Supporting Files */,
+			);
+			path = SBJSON;
+			sourceTree = "<group>";
+		};
+		0AFE50C31533D66F00848AA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AFE50C41533D66F00848AA5 /* SBJSON-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AFE50D61533D66F00848AA5 /* SBJSONTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AFE50DC1533D66F00848AA5 /* SBJSONTests.h */,
+				0AFE50DD1533D66F00848AA5 /* SBJSONTests.m */,
+				0AFE50D71533D66F00848AA5 /* Supporting Files */,
+			);
+			path = SBJSONTests;
+			sourceTree = "<group>";
+		};
+		0AFE50D71533D66F00848AA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AFE50D81533D66F00848AA5 /* SBJSONTests-Info.plist */,
+				0AFE50D91533D66F00848AA5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AFE50BB1533D66F00848AA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AFE50BC1533D66F00848AA5 /* SBJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AFE50E11533D66F00848AA5 /* Build configuration list for PBXNativeTarget "SBJSON" */;
+			buildPhases = (
+				0AFE50B91533D66F00848AA5 /* Sources */,
+				0AFE50BA1533D66F00848AA5 /* Frameworks */,
+				0AFE50BB1533D66F00848AA5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBJSON;
+			productName = SBJSON;
+			productReference = 0AFE50BD1533D66F00848AA5 /* libSBJSON.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0AFE50CC1533D66F00848AA5 /* SBJSONTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AFE50E41533D66F00848AA5 /* Build configuration list for PBXNativeTarget "SBJSONTests" */;
+			buildPhases = (
+				0AFE50C81533D66F00848AA5 /* Sources */,
+				0AFE50C91533D66F00848AA5 /* Frameworks */,
+				0AFE50CA1533D66F00848AA5 /* Resources */,
+				0AFE50CB1533D66F00848AA5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AFE50D41533D66F00848AA5 /* PBXTargetDependency */,
+			);
+			name = SBJSONTests;
+			productName = SBJSONTests;
+			productReference = 0AFE50CD1533D66F00848AA5 /* SBJSONTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AFE50B41533D66F00848AA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0AFE50B71533D66F00848AA5 /* Build configuration list for PBXProject "SBJSON" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0AFE50B21533D66F00848AA5;
+			productRefGroup = 0AFE50BE1533D66F00848AA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AFE50BC1533D66F00848AA5 /* SBJSON */,
+				0AFE50CC1533D66F00848AA5 /* SBJSONTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AFE50CA1533D66F00848AA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFE50DB1533D66F00848AA5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AFE50CB1533D66F00848AA5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AFE50B91533D66F00848AA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFE50C71533D66F00848AA5 /* SBJSON.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AFE50C81533D66F00848AA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFE50DE1533D66F00848AA5 /* SBJSONTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AFE50D41533D66F00848AA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AFE50BC1533D66F00848AA5 /* SBJSON */;
+			targetProxy = 0AFE50D31533D66F00848AA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AFE50D91533D66F00848AA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AFE50DA1533D66F00848AA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AFE50DF1533D66F00848AA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0AFE50E01533D66F00848AA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AFE50E21533D66F00848AA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SBJSON.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBJSON/SBJSON-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0AFE50E31533D66F00848AA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SBJSON.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBJSON/SBJSON-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0AFE50E51533D66F00848AA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBJSON/SBJSON-Prefix.pch";
+				INFOPLIST_FILE = "SBJSONTests/SBJSONTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0AFE50E61533D66F00848AA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBJSON/SBJSON-Prefix.pch";
+				INFOPLIST_FILE = "SBJSONTests/SBJSONTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AFE50B71533D66F00848AA5 /* Build configuration list for PBXProject "SBJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AFE50DF1533D66F00848AA5 /* Debug */,
+				0AFE50E01533D66F00848AA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AFE50E11533D66F00848AA5 /* Build configuration list for PBXNativeTarget "SBJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AFE50E21533D66F00848AA5 /* Debug */,
+				0AFE50E31533D66F00848AA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0AFE50E41533D66F00848AA5 /* Build configuration list for PBXNativeTarget "SBJSONTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AFE50E51533D66F00848AA5 /* Debug */,
+				0AFE50E61533D66F00848AA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AFE50B41533D66F00848AA5 /* Project object */;
+}
